@@ -7,7 +7,7 @@
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "build": "cd client && npm run build"
+    "build": "cd frontend && npm run build"
   },
   "author": "Anshid ck",
   "license": "ISC",
